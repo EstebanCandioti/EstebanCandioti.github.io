@@ -1,0 +1,26 @@
+.presentacion__seccion__derecha{
+    display: flex;
+    flex-direction: column;
+    max-width: 74rem;
+    padding-top: 2rem;
+    margin-right: 34rem;
+    margin-left:  9.5rem;
+}
+
+@media screen and (max-width:768px) {
+    .presentacion__seccion__derecha{
+        max-width: 25rem;
+        margin-right: 4rem;
+        margin-left:  2rem;
+        padding-top: 2rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .presentacion__seccion__derecha{
+        max-width: 100%;
+        margin-right: 0;
+        margin-left:  0;
+        padding-top: 1rem;
+    }
+}

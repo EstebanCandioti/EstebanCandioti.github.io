@@ -1,0 +1,10 @@
+.cabecera__lista{
+    display: flex;
+}
+
+@media screen and (max-width:768px) {
+    .cabecera__lista{
+        display: flex;
+        align-items: flex-end;
+    }
+}

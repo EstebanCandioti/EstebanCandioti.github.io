@@ -1,0 +1,15 @@
+.titulo{
+    padding-top: 10rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+@media screen and (max-width:425px) {
+    .titulo{
+        font-size: 1.8rem;
+        padding-top: 4rem;
+    }
+}

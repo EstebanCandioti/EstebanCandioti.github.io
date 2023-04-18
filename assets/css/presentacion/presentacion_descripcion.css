@@ -1,0 +1,19 @@
+.presentacion__descripcion{
+    width: 80%;
+    padding-top: 2rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+@media screen and (max-width:768px) {
+    .presentacion__descripcion {
+        width: 100%;
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .presentacion__descripcion{
+        font-size: 1rem;
+    }
+}

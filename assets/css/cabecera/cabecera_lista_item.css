@@ -1,0 +1,9 @@
+.cabecera__lista__item{
+    padding-right: 3rem;
+}
+
+@media screen and (max-width:768px) {
+   .cabecera__lista__item{
+    display: none;
+   }
+}

@@ -1,0 +1,17 @@
+.formacion__academica__institucion{
+    padding-top: 1rem;
+    font-size: 1rem;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .formacion__academica__institucion{
+        padding-top: 0.4rem;
+    }
+}
+
+@media screen and (max-width: 425px){ 
+    .formacion__academica__institucion{
+        margin-bottom: 1rem;
+    }
+}

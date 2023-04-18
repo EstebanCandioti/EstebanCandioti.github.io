@@ -1,0 +1,24 @@
+.sobre__mi{
+    display: flex;
+    flex-direction: column;
+    padding-left:  9.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background: rgba(234, 242, 253, 1);
+    font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (max-width:768px) {
+    .sobre__mi{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .sobre__mi{
+        max-width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}

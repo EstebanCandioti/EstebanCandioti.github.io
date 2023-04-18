@@ -1,0 +1,15 @@
+.formacion__academica__cuadros{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+
+@media screen and (max-width:425px) {
+    .formacion__academica__cuadros{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

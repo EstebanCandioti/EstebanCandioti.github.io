@@ -1,0 +1,22 @@
+.presentacion__links{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 40%;
+    padding-top: 2.5rem;
+}
+
+@media screen and (max-width:768px) {
+    .presentacion__links{
+        max-width: 95%;
+        padding-right: 4.5rem;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .presentacion__links{
+        max-width: 80%;
+        justify-content: space-between;
+    }
+}

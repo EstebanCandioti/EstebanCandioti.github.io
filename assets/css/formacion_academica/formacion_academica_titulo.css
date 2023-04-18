@@ -1,0 +1,11 @@
+.formacion__academica__titulo{
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-top:1rem ;
+}
+
+@media screen and (max-width:768px) {
+    .formacion__academica__titulo{
+        font-size: 1.3rem;
+    }
+}

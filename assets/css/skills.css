@@ -1,0 +1,15 @@
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 4rem;
+    background: #F5F5F5;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (max-width:425px) {
+    .skills{
+        max-width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}

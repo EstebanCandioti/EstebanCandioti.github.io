@@ -1,0 +1,18 @@
+.presentacion__titulo{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 61px;
+}
+
+@media screen and (max-width:768px) {
+    .presentacion__titulo{
+        font-size: 1.8rem;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .presentacion__titulo{
+        font-size: 1.4rem;
+    }
+}

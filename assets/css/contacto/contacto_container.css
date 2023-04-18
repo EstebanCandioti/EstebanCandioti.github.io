@@ -1,0 +1,17 @@
+.contacto__container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:768px) {
+    .contacto__container{
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .contacto__container{
+        width: 70%;
+    }
+}

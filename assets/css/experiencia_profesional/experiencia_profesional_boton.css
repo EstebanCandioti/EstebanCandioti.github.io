@@ -1,0 +1,16 @@
+.experiencia__profesional__boton{
+    margin-top: 2rem;
+    margin-right: 20px;
+    padding: 20px;
+    width:12rem;
+    background: #F5F5F5;
+    border: 2px solid rgba(42, 122, 228, 1);
+}
+
+@media screen and (max-width:425px) {
+    .experiencia__profesional__boton{
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-right: 0.5rem;
+    }
+}

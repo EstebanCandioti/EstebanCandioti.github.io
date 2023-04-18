@@ -1,0 +1,24 @@
+.skills__cuadro{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 2.5rem;
+    width: 11rem;
+    height: 11rem;
+    background-color: #ffff;
+}
+
+@media screen and (max-width:768px) {
+    .skills__cuadro{
+        width: 14rem;
+        height: 7.4rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .skills__cuadro{
+        width: 9rem;
+        height: 7rem;
+    }
+}

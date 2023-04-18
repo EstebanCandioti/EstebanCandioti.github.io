@@ -1,0 +1,22 @@
+.contacto__input{
+    padding: 2rem 33rem 1.5rem 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border: none;
+    border-bottom: 1px solid  #C8C8C8;
+    color: rgba(70, 70, 70, 1);
+    font-size: 1rem;
+    background-color: #fff;
+}
+
+.contacto__input:focus{
+    outline:none;
+    border-bottom: 1px solid  #2A7AE4;
+    transition: 0.4s ease-in;
+}
+
+@media screen and (max-width:768px) {
+    .contacto__input{
+        padding: 2rem 20rem 1rem 0.5rem;
+    }
+}

@@ -1,0 +1,21 @@
+.experiencia__profesional__titulo{
+    width: 35rem;
+    height: 52px;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width:768px) {
+    .experiencia__profesional__titulo{
+        width: auto;
+        height: auto;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .experiencia__profesional__titulo{
+        width: 20rem;
+        font-size: 1.2rem;
+    }
+}

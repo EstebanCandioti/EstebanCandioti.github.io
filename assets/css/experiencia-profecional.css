@@ -1,0 +1,23 @@
+.experiencia__profesional{
+    background: #F5F5F5;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10rem;
+    font-family: 'Raleway', sans-serif;
+    padding-left: 9.5rem;
+    padding-right: 9.5rem;
+}
+
+@media screen and (max-width:768px) {
+    .experiencia__profesional{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .experiencia__profesional{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}

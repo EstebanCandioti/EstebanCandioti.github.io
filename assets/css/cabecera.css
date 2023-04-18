@@ -1,0 +1,25 @@
+.cabecera{
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-left: 9.5rem;
+    padding-right: 9.5rem;
+    background: #F5F5F5;
+    font-family: 'Raleway', sans-serif;
+}
+
+@media screen and (max-width:768px) {
+    .cabecera{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .cabecera{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        max-width: 100%;
+    }
+}

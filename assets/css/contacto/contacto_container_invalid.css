@@ -1,0 +1,33 @@
+.contacto__container__invalid .contacto__input__error{
+    color: #df2525;
+    display: block;
+    font-size: 13px;
+    padding-left: 1rem;
+}
+
+.contacto__container__invalid{
+    margin-bottom: 0.5rem;
+}
+
+
+.contacto__container__invalid .contacto__input {
+    border: 1px solid #df2525;
+    border-radius: 7px;
+}
+
+.contacto__container__invalid .contacto__input__mensaje {
+    border: 1px solid #df2525;
+    border-radius: 7px;
+}
+
+.contacto__container__invalid .contacto__input__tema{
+    color: #df2525;
+}
+
+.contacto__input__tema__email__invalido{
+    color: #df2525;
+    position: absolute;
+    top:30px;
+    left: 15px;
+    font-size: 12px;
+}

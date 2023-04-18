@@ -1,0 +1,23 @@
+.skills__cuadros{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 9.5rem;
+    margin-right: 9.5rem;
+}
+
+@media screen and (max-width:768px) {
+    .skills__cuadros{
+        width: 100%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .skills__cuadros{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

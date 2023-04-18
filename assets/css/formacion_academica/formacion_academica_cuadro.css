@@ -1,0 +1,15 @@
+.formacion__academica__cuadro{
+    width: 20%;
+}
+
+@media screen and (max-width:768px) {
+    .formacion__academica__cuadro{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .formacion__academica__cuadro{
+        width: 45%;
+    }
+}

@@ -1,0 +1,6 @@
+.presentacion__link{
+    display: flex;
+    align-items: center;
+    width: 1rem;
+    text-decoration: none;
+}

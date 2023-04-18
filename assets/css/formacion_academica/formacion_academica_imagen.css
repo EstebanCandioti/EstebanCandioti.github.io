@@ -1,0 +1,53 @@
+.formacion__academica__imagen{
+    background-color: #fff;
+    width: 23rem;
+    height: 20rem;
+}
+
+#argentina_programa{
+    background-image: url(/assets/img/argentina_programa.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#ticmas{
+    background-image: url(/assets/img/ticmas.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#pearson{
+    background-image: url(/assets/img/pearson.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#alura{
+    background-image: url(/assets/img/aluga.avif);
+    background-size: 15rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+@media screen and (max-width:768px) {
+    .formacion__academica__imagen{
+        width: 14rem;
+        height: 11rem;
+    }
+
+    #alura{
+        background-size: 10rem;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .formacion__academica__imagen{
+        width: 24rem;
+        height: 8rem;
+    }
+
+    #alura,#pearson,#ticmas,#argentina_programa{
+        background-size: 8rem;
+    }
+}

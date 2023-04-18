@@ -1,0 +1,16 @@
+.cabecera__lista__item__destacado{
+    font-weight: 700;
+} 
+
+@media screen and(max-width:768px) {
+    .cabecera__lista__item__destacado{
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .cabecera__lista__item__destacado{
+        font-size:14px;
+        align-self: flex-end;
+    }
+}
