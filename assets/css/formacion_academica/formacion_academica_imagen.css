@@ -50,11 +50,11 @@
 
 @media screen and (max-width:425px) {
     .formacion__academica__imagen{
-        width: 24rem;
+        width: 20rem;
         height: 8rem;
     }
 
-    #alura,#pearson,#ticmas,#argentina_programa{
+    #alura,#pearson,#ticmas,#argentina_programa, #IES{
         background-size: 8rem;
     }
 }

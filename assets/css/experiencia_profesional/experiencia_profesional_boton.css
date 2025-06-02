@@ -9,6 +9,7 @@
 
 @media screen and (max-width:425px) {
     .experiencia__profesional__boton{
+        width: 10rem;
         padding-left: 15px;
         padding-right: 15px;
         margin-right: 0.5rem;

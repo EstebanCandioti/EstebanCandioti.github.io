@@ -5,8 +5,18 @@
     padding-left: 2rem;
 }
 
+
+
+
 @media screen and (max-width:768px) {
     .contacto__formulario{
         padding-left: 0;
     }
+
+    form.contacto__formulario fieldset {
+  width: 100% !important;
+  border: none; /* opcional */
+  padding: 0;    /* opcional */
+  margin: 0;     /* opcional */
+}
 }
