@@ -23,9 +23,10 @@ function enviar(event){
   const message = document.querySelector("[name=mensaje]").value
 
   enviarEmail.setAttribute(
-    "href",
-    `mailTo:estebancandio@gmail.com?subject=${subject}&body=${message +` mensaje enviado por: ${name}`}`
-  )
+  "href",
+  `mailto:estebancandio@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`${message}\n\nMensaje enviado por: ${name}`)}`
+  );
+
   
   enviarEmail.click()
 

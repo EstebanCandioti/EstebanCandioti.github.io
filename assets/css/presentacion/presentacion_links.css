@@ -1,7 +1,7 @@
 .presentacion__links{
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width: 40%;
     padding-top: 2.5rem;
 }

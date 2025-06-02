@@ -29,6 +29,13 @@
     background-position: center;
 }
 
+#IES{
+    background-image: url(/assets/img/IES.png);
+    background-size: 15rem;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 @media screen and (max-width:768px) {
     .formacion__academica__imagen{

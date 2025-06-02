@@ -6,3 +6,11 @@
     color: #fff;
     font-size: large;
 }
+
+.contacto__boton:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #2A7AE4;
+    transition: background-color 0.5s;
+    transition: color 0.5s;
+}
